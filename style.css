@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+#education ul {
+    list-style: none;
+}
+
+#education ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#education ul li strong {
+    color: #007bff;
+}
+
+/* Skills Section */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#skills ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#skills ul li img {
+    margin-right: 10px;
+}
+
+/* Projects Section */
+#projects .project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+/* Certificates Section */
+#certificates .certificates-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificate {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.certificate img {
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.certificate h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.certificate a {
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .certificate {
+        width: 100%;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    .project img {
+        width: 80%;
+        margin: 0 auto 10px;
+    }
+}
